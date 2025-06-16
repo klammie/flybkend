@@ -1,4 +1,4 @@
-import { schedule } from "node-cron";
+const { schedule } = require("node-cron");
 
 let scheduledTask;
 let currentIndex = 0;
