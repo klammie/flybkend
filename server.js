@@ -3,7 +3,6 @@ import { schedule } from 'node-cron';
 import { processTrade, cryptoAcc } from './core.js';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -85,6 +84,6 @@ app.get('/', (req, res) => {
   res.send('Hello from Fly.io!!');
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(3000, '0.0.0.0', () => {
+  console.log('Server running on 0.0.0.0:3000');
 });
