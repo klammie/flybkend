@@ -82,7 +82,7 @@ app.post('/trade', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello from Fly.io!');
+  res.send('Hello from Fly.io!!');
 });
 
 app.listen(PORT, '0.0.0.0', () => {
