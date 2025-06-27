@@ -3,5 +3,5 @@ app = "flybkend"
 [http_service]
   internal_port = 3000
   auto_start_machines = true
-  auto_stop_machines = true
+  auto_stop_machines = false
   min_machines_running = 1
